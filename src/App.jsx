@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <div className='text-3xl font-bold underline'>Hello</div>
+      <div className='h-screen px-4 py-8 bg-gradient-to-b from-white to-purple-700'>
+        Hello
+      </div>
     </>
   )
 }
