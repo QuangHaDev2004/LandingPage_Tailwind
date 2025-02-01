@@ -1,3 +1,5 @@
+import Cards from "../../assets/desktop/isocard.svg"
+
 const Slogan = () => {
   return (
     <section className="text-4xl my-14 font-extrabold">
@@ -8,6 +10,9 @@ const Slogan = () => {
         hover:bg-pink-500 transition-all duration-300">
           Start
         </button>
+      </div>
+      <div className="mt-16 mx-auto">
+        <img src={Cards} alt="" />
       </div>
     </section>
   )
