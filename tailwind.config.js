@@ -14,6 +14,9 @@ export default {
         "purple-900": "#210035",
         "pink-500": "#ad26ff",
       },
+      fontFamily: {
+        sora: ["Sora", "serif"]
+      }
     },
   },
   plugins: [],
